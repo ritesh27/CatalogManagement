@@ -18,6 +18,9 @@ import javax.ws.rs.core.Response.Status;
 import com.catlogrest.dao.CatalogDAO;
 import com.catlogrest.dao.CatlogVO;
 
+/**
+* This is catlog service
+*/
 @Path("/CatalogService")
 public class CatalogService {
 	   public CatalogDAO catDao = new CatalogDAO();
